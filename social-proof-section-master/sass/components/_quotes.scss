@@ -1,0 +1,51 @@
+.quotes {
+  --spacer: 0.5rem;
+
+  li {
+    background: var(--clr-primary-700);
+    color: var(--clr-neutral-200);
+    text-align: left;
+    border-radius: var(--br);
+    padding: var(--spacer);
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+    &:nth-child(2) {
+      transform: translateY(1.5rem);
+    }
+
+    &:nth-child(3) {
+      transform: translateY(3rem);
+    }
+  }
+
+  img {
+    width: 3.5rem;
+    border-radius: 50%;
+
+  }
+
+  .name {
+    font-weight: 800;
+  }
+
+  .status {
+    color: var(--clr-primary-300);
+  }
+
+  .quote {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+  }
+}
+
+.attribution {
+  margin-top: 20rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
